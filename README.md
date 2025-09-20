@@ -34,11 +34,11 @@ composer require maryamfadhillah/soft-delete-extra
 
 ```
 use Illuminate\Database\Eloquent\Model;
-use App\Traits\CustomSoftDelete;
+use App\Traits\SoftDeleteExtra;
 
 class Product extends Model
 {
-    use CustomSoftDelete;
+    use SoftDeleteExtra;
 
     protected $fillable = [
         'name',
@@ -67,5 +67,6 @@ ADD is_deleted TINYINT DEFAULT 0;
 ## Usage
 
 It's completely the same as Laravel's Soft Delete.
+
 
 
