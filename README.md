@@ -15,6 +15,13 @@ A simple Laravel package that extends the default **SoftDeletes** functionality 
 
 ---
 
+## Requirement
+
+- PHP 8.0 or higher
+- Laravel 10 or higher
+
+---
+
 ## Installation
 
 1. Install via Composer:
@@ -60,3 +67,4 @@ ADD is_deleted TINYINT DEFAULT 0;
 ## Usage
 
 It's completely the same as Laravel's Soft Delete.
+
