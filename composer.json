@@ -1,0 +1,14 @@
+{
+  "name": "maryamfadhillah/soft-delete-extra",
+  "description": "Laravel package for extended soft delete with deleted_by",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "CustomSoftDelete\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^10.0"
+  }
+}
