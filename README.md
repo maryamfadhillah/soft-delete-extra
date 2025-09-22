@@ -57,7 +57,6 @@ Make sure your table contains the following columns in addition to your normal f
 
 ```
 ALTER TABLE products
-ADD deleted_at DATETIME NULL,
 ADD deleted_by INT NULL,
 ADD is_deleted TINYINT DEFAULT 0;
 ```
@@ -67,6 +66,7 @@ ADD is_deleted TINYINT DEFAULT 0;
 ## Usage
 
 It's completely the same as Laravel's Soft Delete.
+
 
 
 
