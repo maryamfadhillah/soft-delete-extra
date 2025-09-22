@@ -1,6 +1,6 @@
 # Laravel Soft Delete Extra
 
-A simple Laravel package that extends the default **SoftDeletes** functionality by adding custom fields such as `is_deleted` and `deleted_by` while still keeping `deleted_at` from Laravel's native implementation.
+A simple Laravel package that override the default **SoftDeletes** functionality by adding custom fields such as `is_deleted` and `deleted_by` without keeping `deleted_at` from Laravel's native implementation.
 
 ---
 
@@ -17,8 +17,8 @@ A simple Laravel package that extends the default **SoftDeletes** functionality 
 
 ## Requirement
 
-- PHP 8.0 or higher
-- Laravel 10 or higher
+- PHP 8.0
+- Laravel 10
 
 ---
 
@@ -67,6 +67,7 @@ ADD is_deleted TINYINT DEFAULT 0;
 ## Usage
 
 It's completely the same as Laravel's Soft Delete.
+
 
 
 
