@@ -4,12 +4,12 @@ namespace App\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 
-trait CustomSoftDelete
+trait SoftDeleteExtra
 {
     /**
      * Boot the trait.
      */
-    public static function bootCustomSoftDelete()
+    public static function bootSoftDeleteExtra()
     {
         static::addGlobalScope('is_deleted', function (Builder $builder) {
             $builder->where($builder->getModel()->getQualifiedIsDeletedColumn(), false);
