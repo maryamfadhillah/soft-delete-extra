@@ -6,7 +6,6 @@ A simple Laravel package that override the default **SoftDeletes** functionality
 
 ## Features
 
-- Extends Laravel's native **SoftDeletes**.
 - Automatically fills:
   - `is_deleted` → mark row as deleted (1 = deleted, 0 = active).
   - `deleted_by` → stores the user ID who deleted the record.
@@ -65,6 +64,7 @@ ADD is_deleted TINYINT DEFAULT 0;
 ## Usage
 
 It's completely the same as Laravel's Soft Delete.
+
 
 
 
